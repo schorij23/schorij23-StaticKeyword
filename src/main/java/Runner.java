@@ -1,3 +1,4 @@
+import org.eclipse.jetty.server.handler.ContextHandler.StaticContext;
 
 public class Runner {
     /**
@@ -22,6 +23,8 @@ public class Runner {
      * @param in the String value you should change global_var to in.
      */
     public void changeClassVar(String in){
-
-    }
+        Class.global_var=in;
+        
+               
+}
 }
